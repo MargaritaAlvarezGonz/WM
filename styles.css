@@ -1,0 +1,190 @@
+
+@font-face {
+    font-family:'Inconsolata';
+    src: url('Inconsolataregular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Tajawal';
+    src: url('tajawalregular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+.grid-container {
+    
+    background-image: url(/Fotos/WipeOut04_22_2022_030420.735000.jpg);
+    background-color: black; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: grid; 
+    height: auto; 
+    width: auto;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 3% auto auto auto auto 5%;
+    text-align: center; 
+    padding: 1.25rem; 
+    
+}
+
+
+.navigation {
+    grid-column: 1/5;
+    background-color: #7267CB;
+    font-size: 1.5625rem;
+        
+}
+
+.navbar-brand {
+    font-size: 1.875rem;
+}
+
+
+.bloque {
+    
+    /* border: 1px black solid;  */
+    color: black; 
+    padding: 1.25rem; 
+    font-size: 1.5625rem; 
+    grid-column: 1/5; 
+}
+
+ 
+h1 {
+    background-color: #98bae700;
+    font-family: 'Inconsolata';
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 1.875rem;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+h1:hover {
+    background-color: #7267CB;
+    color: white;
+  }
+
+
+#subtitulo {
+    font-family:'Inconsolata';
+    font-size: 5.625rem;
+    color: white;  
+}
+
+#subtitulo-wm {
+    font-family: 'Inconsolata';
+    font-size: 7.5rem;
+    color: white;
+}
+
+#subtitulo-tec {
+    font-family: 'Inconsolata';
+    font-size: 4.375rem;
+    color: white;
+}
+
+
+
+#texto {
+    font-family: 'tajawalregular' ; 
+    font-size: 1.5625rem; 
+    color:white;
+}
+
+
+.photo-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#jennifer:hover{
+    transition: transform 2s;
+    transform: scale(1.2);
+
+}
+
+#eva:hover{
+    transition: transform 2s;
+    transform: scale(1.2);
+}
+
+#margarita:hover{
+    transition: transform 2s;
+    transform: scale(1.2);
+}
+
+#aldara:hover{
+    transition: transform 2s;
+    transform: scale(1.2);
+}
+
+
+
+
+.footer1 {
+    grid-column: 1/2; 
+    background-color: #00000000;
+}
+.footer2 {
+    grid-column: 2/3;
+    background-color: #6d3cbc00;
+}
+
+.susbribe-box {
+    font-family: 'tajawalregular' ; 
+    font-size: 1.5625rem; 
+    color: white;
+}
+
+.foot-text {
+    font-family: 'tajawalregular' ; 
+    font-size: .9375rem; 
+    color: white;
+}
+
+.footer3 {
+    grid-column: 3/4;
+    background-color: #6d3cbc00;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer4 {
+    grid-column: 4/5;
+    background-color: #6d3cbc00;
+}
+
+/*.navbar2 {
+    align-content: center;
+}
+
+
+/* Media query */ 
+@media all and (max-width: 37.5rem) {
+    .footer1 , .footer2 , .footer3 , .footer4 {
+        grid-column: 1 / 5; 
+    }
+    .grid-container { grid-template-rows: 5% auto auto auto auto auto auto auto 5%;}
+    .photo-container {
+        flex-direction: column;
+    }
+    h1 { background-color: #7267CB; color: white;
+    }
+    /* #texto {
+        font-size: ;
+    } */
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    }
+
